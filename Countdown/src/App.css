@@ -1,0 +1,92 @@
+/* src/App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 100%;
+}
+
+.Whole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4cm;
+  padding-top: 3cm;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 400%;
+  margin-bottom: 0.2em;
+  text-align: center;
+  justify-content: right;
+}
+
+.Calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+input[type="datetime-local"] {
+  width: 100%;
+  align-items: center ;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.countdown-info {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom:3cm;
+  padding-top: 3cm;
+}
+
+.progress-bar {
+  width: 120%;
+  height: 30px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #738cd1;
+  transition: width 0.5s;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
