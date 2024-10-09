@@ -13,7 +13,25 @@ If the above instructions don't work, follow the following steps:
 
 
 For Windows:
-![image](https://github.com/user-attachments/assets/3087da34-bacd-434b-9988-1941be111ea6)
+# installs fnm (Fast Node Manager)
+1- winget install Schniz.fnm
+# configure fnm environment
+2- fnm env --use-on-cd | Out-String | Invoke-Expression
+# download and install Node.js
+3- fnm use --install-if-missing 20
+# verifies the right Node.js version is in the environment
+4- node -v # should print `v20.18.0`
+# verifies the right npm version is in the environment
+5- npm -v # should print `10.8.2`
 
 For Mac:
-![image](https://github.com/user-attachments/assets/6744bea5-4034-48a1-beba-3fa9f0ebc540)
+# installs fnm (Fast Node Manager)
+1- curl -fsSL https://fnm.vercel.app/install | bash
+# activate fnm
+2- source ~/.bashrc
+# download and install Node.js
+3- fnm use --install-if-missing 20
+# verifies the right Node.js version is in the environment
+4- node -v # should print `v20.18.0`
+# verifies the right npm version is in the environment
+5- npm -v # should print `10.8.2`
