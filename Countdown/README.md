@@ -8,7 +8,9 @@
 5. Start the app: `npm start`
 
 
+
 If the above instructions don't work, follow the following steps:
+
 
 For Windows:
 ![image](https://github.com/user-attachments/assets/3087da34-bacd-434b-9988-1941be111ea6)
